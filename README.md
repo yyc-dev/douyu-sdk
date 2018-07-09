@@ -14,7 +14,7 @@
     </p>    
 </p>
 
-## Introduction
+## 介绍
 
 DouYu-SDK,一个基于斗鱼弹幕API封装的SDK
 
