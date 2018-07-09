@@ -36,6 +36,7 @@ PS:当前未上传到maven中央库，请自行下载源码后打包使用(2018�
 
 可参考以下示例代码：
 ```
+    //初始化客户端
     DouYuClient client = new DouYuClient("openbarrage.douyutv.com", 8601, "4835718");
     //注册普通弹幕消息处理器
     client.registerMessageListener(new MessageListener<ChatMsg>() {
