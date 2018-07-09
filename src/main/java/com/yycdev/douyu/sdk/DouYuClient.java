@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * 功能描述：斗鱼SDK
  *
- * @auther: liangjingkun
+ * @auther: coffee
  * @date: 2018-07-04 15:19:51
  * 修改日志:
  */
@@ -155,7 +155,7 @@ public class DouYuClient {
                     }
                     if(entity != null){
                         entity.setMessage(msg);
-                        entity.setMessageUuid(msgBase.getMessageUuid());
+                        entity.setUuid(msgBase.getUuid());
                     }
 
                     //消息监听器处理
