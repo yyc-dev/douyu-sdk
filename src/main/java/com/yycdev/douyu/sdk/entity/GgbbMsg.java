@@ -3,7 +3,7 @@ package com.yycdev.douyu.sdk.entity;
 /**
  * 功能描述：房间内用户抢红包消息
  *
- * @auther: liangjingkun
+ * @auther: coffee
  * @date: 2018-07-09 11:36:12
  * 修改日志:
  *

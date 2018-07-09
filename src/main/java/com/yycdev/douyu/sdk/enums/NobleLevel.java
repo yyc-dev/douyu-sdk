@@ -3,7 +3,7 @@ package com.yycdev.douyu.sdk.enums;
 /**
  * 功能描述：贵族等级
  *
- * @auther: liangjingkun
+ * @auther: coffee
  * @date: 2018-07-08 23:38:22
  * 修改日志:
  */

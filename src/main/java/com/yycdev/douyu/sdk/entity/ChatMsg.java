@@ -3,7 +3,7 @@ package com.yycdev.douyu.sdk.entity;
 /**
  * 功能描述：弹幕消息
  *
- * @auther: liangjingkun
+ * @auther: coffee
  * @date: 2018-07-04 19:44:16
  * 修改日志:
  */

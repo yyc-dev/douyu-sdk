@@ -4,7 +4,7 @@ package com.yycdev.douyu.sdk.entity;
  *
  * 功能描述：用户进房通知消息
  *
- * @auther: liangjingkun
+ * @auther: coffee
  * @date: 2018-07-09 00:28:36
  * 修改日志:
  *      

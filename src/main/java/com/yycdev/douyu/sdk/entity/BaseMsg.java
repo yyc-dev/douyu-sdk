@@ -3,7 +3,7 @@ package com.yycdev.douyu.sdk.entity;
 /**
  * 功能描述：通用消息实体
  *
- * @auther: liangjingkun
+ * @auther: coffee
  * @date: 2018-07-07 17:16:27
  * 修改日志:
  */

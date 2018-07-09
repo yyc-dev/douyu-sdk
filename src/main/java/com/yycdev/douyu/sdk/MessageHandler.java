@@ -13,7 +13,7 @@ import java.net.Socket;
 /**
  * 功能描述：消息处理助手
  *
- * @auther: liangjingkun
+ * @auther: coffee
  * @date: 2018-07-04 15:11:13
  * 修改日志:
  */

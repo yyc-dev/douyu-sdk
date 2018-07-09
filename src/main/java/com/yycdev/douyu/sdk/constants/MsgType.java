@@ -4,7 +4,7 @@ package com.yycdev.douyu.sdk.constants;
  *
  * 功能描述：消息类型
  *
- * @auther: liangjingkun
+ * @auther: coffee
  * @date: 2018-07-07 16:22:36
  * 修改日志:
  *      

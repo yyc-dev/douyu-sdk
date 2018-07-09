@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 功能描述：默认ChatMsg消息监听处理器
  *
- * @auther: liangjingkun
+ * @auther: coffee
  * @date: 2018-07-08 21:23:08
  * 修改日志:
  */

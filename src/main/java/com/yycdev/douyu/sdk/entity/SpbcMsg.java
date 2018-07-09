@@ -4,7 +4,7 @@ package com.yycdev.douyu.sdk.entity;
  *
  * 功能描述：礼物广播消息
  *
- * @auther: liangjingkun
+ * @auther: coffee
  * @date: 2018-07-09 10:28:48
  * 修改日志:
  *      

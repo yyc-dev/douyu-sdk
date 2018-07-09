@@ -5,7 +5,7 @@ import java.lang.reflect.ParameterizedType;
 /**
  * 功能描述：消息监听器
  *
- * @auther: liangjingkun
+ * @auther: coffee
  * @date: 2018-07-04 16:22:22
  * 修改日志:
  */

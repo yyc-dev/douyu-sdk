@@ -17,7 +17,7 @@ import java.util.Map;
  * 3. 如果 key 或者 value 中含有字符‘/’，则使用‘@S’转义<br>
  * 4. 如果 key 或者 value 中含有字符‘@’，使用‘@A’转义<br>
  *
- * @auther: liangjingkun
+ * @auther: coffee
  * @date: 2018-07-08 18:18:50
  * 修改日志:
  */

@@ -4,7 +4,7 @@ package com.yycdev.douyu.sdk.exceptions;
  *
  * 功能描述：
  *
- * @auther: liangjingkun
+ * @auther: coffee
  * @date: 2018-07-04 15:50:12
  * 修改日志:
  *      

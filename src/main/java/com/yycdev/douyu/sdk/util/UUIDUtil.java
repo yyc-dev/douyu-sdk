@@ -6,7 +6,7 @@ import java.util.UUID;
  *
  * 功能描述：UUID工具类
  *
- * @auther: liangjingkun
+ * @auther: coffee
  * @date: 2018-07-07 18:26:09
  * 修改日志:
  *      

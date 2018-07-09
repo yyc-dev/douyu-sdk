@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 /**
  * 功能描述：数据处理工具类
  *
- * @auther: liangjingkun
+ * @auther: coffee
  * @date: 2018-07-07 16:23:11
  * 修改日志:
  */
