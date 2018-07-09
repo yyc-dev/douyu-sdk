@@ -8,9 +8,6 @@
         <a href="#/">
             <img src="https://maven-badges.herokuapp.com/maven-central/com.xuxueli/xxl-emoji/badge.svg" >
         </a>
-         <a href="#">
-             <img src="https://img.shields.io/github/release/yyc-dev/douyusdk.svg" >
-         </a>
          <a href="http://www.gnu.org/licenses/gpl-3.0.html">
              <img src="https://img.shields.io/badge/license-GPLv3-blue.svg" >
          </a>
