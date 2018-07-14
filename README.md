@@ -27,10 +27,9 @@ DouYu-SDK,一个基于斗鱼弹幕API封装的SDK
     <dependency>
         <groupId>com.yycdev</groupId>
         <artifactId>douyu-sdk</artifactId>
-        <version>${最新稳定版}</version>
+        <version>1.0.0</version>
     </dependency>
 ```
-PS:当前未上传到maven中央库，请自行下载源码后打包使用(2018年7月9日)
 ## 示例
 引入Maven依赖，即可直接使用。
 
