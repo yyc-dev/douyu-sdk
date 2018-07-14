@@ -6,7 +6,7 @@
         (斗鱼弹幕服务器第三方接入协议v1.4.1)
         <br>
         <a href="#/">
-            <img src="https://maven-badges.herokuapp.com/maven-central/com.xuxueli/xxl-emoji/badge.svg" >
+            <img src="https://maven-badges.herokuapp.com/maven-central/com.yycdev/douyu-sdk/badge.svg" >
         </a>
          <a href="http://www.gnu.org/licenses/gpl-3.0.html">
              <img src="https://img.shields.io/badge/license-GPLv3-blue.svg" >
