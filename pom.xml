@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.yycdev</groupId>
     <artifactId>douyu-sdk</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>${project.artifactId}</name>
     <description>A Douyu Barrage Api library for Java.</description>

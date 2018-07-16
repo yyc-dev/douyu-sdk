@@ -152,25 +152,31 @@ public class DouYuClient {
                         entity = STTUtil.toBean(msg, SsdMsg.class);
                     } else if (MsgType.UENTER.equals(msgType)) {
                         entity = STTUtil.toBean(msg, UenterMsg.class);
+                    } else if (MsgType.ERROR.equals(msgType)) {
+                        entity = STTUtil.toBean(msg, ErrorMsg.class);
                     }
-                    if(entity != null){
+                    if (entity != null) {
                         entity.setMessage(msg);
                         entity.setUuid(msgBase.getUuid());
                     }
 
                     //消息监听器处理
                     for (MessageListener messageListener : messageListenerList) {
-                        //基础消息监听器处理
-                        if (messageListener.getMsgClazz() == BaseMsg.class) {
-                            messageListener.read(msgBase);
-                        }
-                        //指定类型消息监听器处理
-                        else if (entity != null && messageListener.getMsgClazz() == entity.getClass()) {
-                            messageListener.read(entity);
-                        }
-                        //String消息监听器处理
-                        else if (messageListener.getMsgClazz() == String.class) {
-                            messageListener.read(msg);
+                        try {
+                            //基础消息监听器处理
+                            if (messageListener.getMsgClazz() == BaseMsg.class) {
+                                messageListener.read(msgBase);
+                            }
+                            //指定类型消息监听器处理
+                            else if (entity != null && messageListener.getMsgClazz() == entity.getClass()) {
+                                messageListener.read(entity);
+                            }
+                            //String消息监听器处理
+                            else if (messageListener.getMsgClazz() == String.class) {
+                                messageListener.read(msg);
+                            }
+                        } catch (Exception e) {
+                            logger.error("消息处理出现异常:", e);
                         }
                     }
 
@@ -187,9 +193,14 @@ public class DouYuClient {
                         throw new DouYuSDKException(e);
                     }
                 }
+
+                //客户端关闭，断开socket通道
+                messageHandler.close();
+
+                logger.info("斗鱼弹幕SDK客户端已成功退出");
             }
         });
-        dataSyncThread.run();
+        dataSyncThread.start();
         return this;
     }
 
@@ -202,9 +213,18 @@ public class DouYuClient {
         messageHandler.send(content);
     }
 
+    /**
+     * 发送登出消息，用于退出
+     */
+    public void logout(){
+        String content = String.format(DouYuApi.LOGOUT);
+        logger.info("发送登出消息中...");
+        messageHandler.send(content);
+    }
 
     public void exit() {
-        messageHandler.close();
+        logout();
         isExitMark = true;
+        logger.info("斗鱼弹幕SDK客户端正在退出中...");
     }
 }

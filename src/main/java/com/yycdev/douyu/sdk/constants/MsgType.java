@@ -45,4 +45,7 @@ public class MsgType {
 
     //房间分区排名变化消息
     public static final String RANK_UP = "rankup";
+
+    //错误信息
+    public static final String ERROR = "error";
 }

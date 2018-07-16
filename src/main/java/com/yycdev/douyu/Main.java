@@ -17,8 +17,8 @@ import org.slf4j.LoggerFactory;
 public class Main {
     private final static Logger logger = LoggerFactory.getLogger(Main.class);
 
-    public static void main(String[] args) {
-        DouYuClient client = new DouYuClient("openbarrage.douyutv.com", 8601, "4835718");
+    public static void main(String[] args) throws InterruptedException {
+        DouYuClient client = new DouYuClient("openbarrage.douyutv.com", 8601, "483571811");
         client.registerMessageListener(new MessageListener<ChatMsg>() {
             @Override
             public void read(ChatMsg message) {
@@ -33,5 +33,8 @@ public class Main {
         });
         client.login();
         client.sync();
+
+        Thread.sleep(30000);
+        client.exit();
     }
 }
