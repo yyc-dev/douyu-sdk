@@ -59,6 +59,9 @@ String
 //通用消息实体(用于处理所有接收到的消息)
 BaseMsg
 
+//错误消息/系统消息
+ErrorMsg
+
 //弹幕消息
 ChatMsg
 
